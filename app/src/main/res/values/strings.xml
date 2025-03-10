@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Filmtracker</string>
+    <string name="app_name">FilmTracker</string>
+    <string name="hint_titulo">Título de la película</string>
+    <string name="hint_director">Director</string>
+    <string name="hint_anio">Año de estreno</string>
+    <string name="fab_add_movie">Añadir nueva película</string>
+    <string name="delete_movie">Eliminar película</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_exit">Salir</string>
 </resources>

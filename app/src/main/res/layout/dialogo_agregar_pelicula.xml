@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Campo para el título de la película -->
+    <EditText
+        android:id="@+id/inputTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_titulo"
+        android:inputType="textCapWords"
+        android:autofillHints="name"
+        android:padding="8dp"
+        android:textSize="16sp"/>
+
+    <!-- Campo para el director -->
+    <EditText
+        android:id="@+id/inputDirector"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_director"
+        android:inputType="textCapWords"
+        android:autofillHints="name"
+        android:padding="8dp"
+        android:textSize="16sp"/>
+
+    <!-- Campo para el año -->
+    <EditText
+        android:id="@+id/inputAnio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_anio"
+        android:inputType="number"
+        android:autofillHints="birthDateYear"
+        android:padding="8dp"
+        android:textSize="16sp"/>
+</LinearLayout>
